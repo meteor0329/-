@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalabe=0" />	
+	<meta name="author" content="網頁作者">
+	<meta name="keywords" content="咖啡,網頁,賣咖啡,買咖啡,東山,台南,台南市">
+	<meta name="description" content="東山咖啡銷售網站">
+	<title>東山咖啡 | 咖啡館</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/coffee.css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	<link rel="bookmark" href="img/favicon.ico"/>
+	<link rel="manifest" href="manifest.json">
+</head>
+<body>
+	<!-- 導覽列 -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info shadow border-bottom border-warning fixed-top" style="border-width:5px !important"> <!-- shadow shadow-lg shadow-sm -->
+		<div class="container"> <!-- 讓畫面居中 -->
+		  <a class="navbar-brand" href="index.html">
+		  <img src="img/kitty.png" width="30" height="30" class="d-inline-block align-top" alt="">
+		  東山咖啡</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item"> 
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html"><i class="fas fa-home"></i> 首頁</a>
+			  </li>
+			  <li class="nav-item"> <!-- 只能有一個 -->
+				<a class="nav-link" href="intro.html"><i class="fab fa-pagelines"></i> 環境介紹</a>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link" href="shop.html"><i class="fas fa-coffee"></i> 咖啡館</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	</nav>
+
+	<!-- 商品區 -->
+	<div class="container-fluid bg-darkgreen"  style="padding:81px 0 20px 0">
+		<div class="container">
+			<h2 class="text-center">咖啡莊園商品介紹</h2>
+				<hr>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12 my-2">
+						<div class="card">
+							<img class="card-img-top" src="img/Coffee-goods_01.jpg">
+							<div class="card-body text-center">
+								<h3>龍眼花茶</h3>
+								<p>與在地小農契作<br>採用有機栽培法</p>
+							</div>
+							<div class="card-footer  bg-warning">
+								<p class="mb-0">NT.299</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 my-2">
+							<div class="card">
+								<img class="card-img-top" src="img/Coffee-goods_08.jpg">
+								<div class="card-body text-center">
+									<h3>龍眼乾禮盒</h3>
+									<p>使用低溫烘焙法<br>保留果乾的口感</p>
+								</div>
+								<div class="card-footer  bg-warning">
+									<p class="mb-0">NT.399</p>
+								</div>
+							</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 my-2">
+							<div class="card">
+								<img class="card-img-top" src="img/Coffee-goods_14.jpg">
+								 <div class="card-body text-center">
+									<h3>特級龍眼蜜</h3>
+									<p>純天然蜂蜜採集<br>無添加化學成分</p>
+									</div>
+									<div class="card-footer bg-warning">
+									<p class="mb-0">NT.699</p>
+								</div>
+							</div>
+					</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 my-2">
+									<div class="card">
+										<img class="card-img-top" src="img/Coffee-goods_09.jpg">
+										<div class="card-body text-center">
+											<h3>三合一咖啡</h3>
+											<p>在地種植咖啡<br>咖啡口感溫潤</p>
+										</div>
+										<div class="card-footer  bg-warning">
+											<p class="mb-0">NT.199</p>
+										</div>
+								</div>
+						</div>
+				</div>					
+			</div>
+	</div>
+
+ <!-- 表單區 -->
+ <div class="container-fluid bg-coco"  style="padding:20px 0 20px 0">
+		<div class="container text-white">
+			<h2 class="text-center">咖啡莊園商品訂購單</h2>
+				<hr>
+				<form>
+					<div class="form-group row">
+						<label for="buyname" class="col-sm-2 col-form-label">購買人姓名</label>
+						<div class="col-sm-10">
+							<input type="text" name="" id="buyname" class="form-control" required>
+						</div>
+					</div>
+				<div class="form-group row">
+					<label for="buytel" class="col-sm-2 col-form-label">購買人電話</label>
+						<div class="col-sm-10">
+							<input type="text" name="" id="buytel" class="form-control" required>
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="buyaddress" class="col-sm-2 col-form-label">購買人地址</label>
+							<div class="col-sm-10">
+								<input type="text" name="" id="buyaddress" class="form-control" required>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="buymail" class="col-sm-2 col-form-label">購買人信箱</label>
+								<div class="col-sm-10">
+									<input type="text" name="" id="buymail" class="form-control" required>
+								</div>
+						</div>
+						<div class="form-group row">
+								<label for="buymail" class="col-sm-2 col-form-label">購買商品</label>
+									<div class="col-sm-10">
+										<select class="form-control" required>
+											<option>龍眼花茶</option>
+											<option>龍眼乾禮盒</option>
+											<option>特級龍眼蜜</option>
+											<option>三合一咖啡</option>
+											</select>
+									</div>
+							</div>
+					<div class="form-group row">
+						<div class="col-sm-2"></div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" id="buyname" required>
+								<label for="form-check-label" for="gridCheck1">我同意使用者條款</label>	
+							</div>
+					</div>													
+					<div class="form-group row">
+							<div class="col-sm-12 text-center">
+								<button type="submit" class="btn btn-info"><i class="fas fa-edit"></i> 送出</button>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-exclamation-triangle"></i>
+										詳細說明
+									</button>															
+							</div>
+						</div>												
+				</form>
+			</div>
+	</div>	
+
+	<!-- 頁尾版權 -->
+	<div class="container-fluid bg-gray"  style="padding:20px 0 20px 0">
+		<div class="container text-center text-white">
+			<ul class="nav justify-content-center">
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="https://zh-tw.facebook.com/" target="_blank">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="https://twitter.com/?lang=zh-tw" target="_blank">
+					<i class="fab fa-twitter-square"></i>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="https://www.youtube.com/?gl=TW&hl=zh-TW" target="_blank">
+					<i class="fab fa-youtube"></i>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="#" target="_blank">
+					<i class="fab fa-line"></i>
+				</a>
+			  </li>
+			</ul>
+			&copy;
+			<script>
+				document.write(new Date().getFullYear())
+			</script>
+			PHP網頁班
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">訂購流程說明</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<p>1.訂單成立後，請於7日前完成匯款。<br>
+									   2.收到款項後，於3天內完成出貨。<br>
+									   3.宅配約 3~5 個工作天。</p>
+								</div>
+								<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">確定</button>
+					</div>
+				</div>
+			</div>
+	</div>	
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
