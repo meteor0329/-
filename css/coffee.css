@@ -28,6 +28,11 @@ body {
 	background-color:#7B7D73
 }
 
+.thead-lightcoco {
+	background-color: rgb(143, 116, 92)
+}
+
+
 @media (max-width:992px) {
 	.pictext {
 		order:2;
